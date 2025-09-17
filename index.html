@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rica's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- RPG HUD -->
+  <div class="hud hud-horizontal">
+    <div class="hud-bars">
+      <div class="bar"><span id="hp-fill" data-label="HP"></span></div>
+      <div class="bar"><span id="mp-fill" data-label="MP"></span></div>
+      <div class="bar"><span id="exp-fill" data-label="EXP"></span></div>
+    </div>
+    <div class="hud-profile">
+      <div class="profile-photo">
+        <!-- Profile image placeholder -->
+        <img src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-1/241508015_101065402322048_4963724191877860306_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeEbMjJYLEB3LQSf0cYvHAgtcqYhgmov8m9ypiGCai_yb6gh4Kf_TC-vQsWW9OlTt4GsFaFcgt0hXlnm9nviW1F0&_nc_ohc=nzu-wDNFCgcQ7kNvwHmnnoD&_nc_oc=Adl1Xs1bgi-dcxdu-GLv1Ma8IeuilX7SG2T6-iRkQVWyGF71mJOiNu7ilwevrOqdHbk&_nc_zt=24&_nc_ht=scontent.fdvo2-1.fna&_nc_gid=s780OjJg3Ub4ihVAq61b7A&oh=00_AfZsPCQvBqThIVxiRExicoHbM2yT-5K8o4LkuwmcUcXApg&oe=68D05A9D" />
+      </div>
+    </div>
+    <div class="status-screen" id="statusScreen">
+      <h3>Status</h3>
+      <p><strong>Name:</strong> Alfe L. Rica
+      <p><strong>Title:</strong> The Heavenly Demon | The Runemaster</p>
+      <p><strong>Level:</strong> <span id="level">0</span></p>
+
+      <h4>Stats</h4>
+      <ul>
+  <li>STR: <span id="stat-str">5</span></li>
+  <li>DEX: <span id="stat-dex">5</span></li>
+  <li>INT: <span id="stat-int">5</span></li>
+  <li>CHA: <span id="stat-cha">5</span></li>
+  <li>END: <span id="stat-endu">5</span></li>
+      </ul>
+
+      <h4>Skills</h4>
+      <ul>
+        <li>RuneCrafting Lvl. MAX</li>
+        <li>????? Lvl. ???</li>
+        <li>Analytical Mind Lvl. 10</li>
+        <li>HTML lvl. 9</li>
+        <li>CSS lvl. 8</li>
+        <li>Javascript Lvl. 4</li>
+      </ul>
+      <button id="heal-btn" style="margin-top:16px;display:block;width:100%;padding:8px 0;font-size:1rem;background:#00ffcc;color:#222;border:none;border-radius:8px;cursor:pointer;box-shadow:0 2px 8px #00ffcc44;">Heal All Stats</button>
+    </div>
+  </div>
+
+  <!-- Portfolio Sections Container for Scroll Reveal -->
+  <div id="portfolio-sections">
+
+  <!-- Title + roles -->
+  <div class="intro">
+    <h1>A Programmer reincarnated as a Runesmith</h1>
+    <p>
+  <a href="https://www.webnovel.com/profile/4315957004" target="_blank">Webnovel Author</a> |
+  <a href="https://github.com/heavenlydemon4" target="_blank">Programmer</a>
+    </p>
+  </div>
+
+  <!-- Example portfolio sections -->
+  <section class="portfolio">
+    <h2>About Me</h2>
+    <p>I’m ALfe L. Rica — a student, an aspiring programmer and aspiring webnovel author crafting immersive worlds and engaging narratives.</p>
+  </section>
+
+  <section class="portfolio">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Time Alive Calculator</h3>
+      <p>A simple site to calculate how long you've been alive.</p>
+  <a href="https://github.com/heavenlydemon4/project_website" target="_blank">Visit Time Alive Calculator</a>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <h2>Contact</h2>
+    <p>Reach out on <a href="alfelegaspirica@gmail.com">Email</a> or <a href="https://github.com/heavenlydemon4" target="_blank">GitHub</a>.</p>
+  </section>
+
+  </div> <!-- End #portfolio-sections -->
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Alfe L. Rica | Made with ❤️ + Mana</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
