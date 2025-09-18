@@ -179,3 +179,17 @@ footer {
   font-size: 0.9rem;
   color: #aaa;
 }
+/* HUD Logo */
+.hud-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.hud-logo img {
+  width: 100px;  /* adjust size */
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 10px #00ffcc); /* glowing effect */
+}
